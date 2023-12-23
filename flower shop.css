@@ -1,0 +1,91 @@
+header{
+    background-color:palevioletred;
+    font-style: italic;
+    font-weight: bold;
+    border: 1px;
+    padding-top:  15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+    animation-name: x;
+    animation-duration:4s;
+
+  }
+  
+  body{
+    background-color:pink;
+    padding: 60px;
+  }
+  header p{
+    text-align: left;
+  }
+  .home p{
+    color: azure;
+    font-size:medium;
+  }
+  .home img{
+    float: right;
+    width: 500px;
+  }
+  .ROW{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: bottom 60px;
+  }
+  .CARD{
+    margin:30PX auto;
+    width: 300PX;
+    height: 300PX;
+    border-radius: 40PX;
+    cursor: pointer;
+    box-shadow: 0ch;
+    
+  }
+   .CARD_IMAGE{
+    width: inherit;
+    height: inherit;
+  
+   } 
+   .CARD_IMAGE img{
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    
+   }
+   .CARD_TEXT{
+    color: aqua;
+    text-align: center;
+     font-style:italic ;
+     margin-top: -80PX;
+   }
+
+   
+   
+   
+   .ROW2 img{
+    border-radius: 40px;
+   }
+   .marwa{
+    position: relative;
+    left: 100px;
+   }
+   form{
+    justify-content: space-around;
+    display: flex;
+    
+   }
+  .review{
+    justify-content: space-around;
+    display: flex;
+  }   
+
+    
+  
+      
+     
+    
+
+
